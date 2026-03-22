@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Lư Thị Mỹ Tiên</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">✦ Mỹ Tiên</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Kinh Nghiệm</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+ 
+  <section class="home" id="home">
+    <canvas id="particleCanvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="home-content">
+      <div class="home-text" data-aos="fade-right" data-aos-duration="1000">
+        <p class="greeting">✨ Xin chào, mình là</p>
+        <h1 class="name">Lư Thị Mỹ Tiên</h1>
+        <div class="typewriter-wrapper">
+          <span class="typewriter" id="typewriter"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="home-desc">
+          Mình là gia sư Toán — người sẽ giúp bạn "gỡ rối" những bài toán<br>
+          tưởng chừng khó nhằn. Biến Toán học trở nên <em>dễ thở</em> hơn! 🌸
+        </p>
+        <div class="home-btns">
+          <a href="#skills" class="btn btn-primary">Xem kỹ năng</a>
+          <a href="#contact" class="btn btn-outline">Liên hệ mình</a>
+        </div>
+      </div>
+      <div class="home-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+        <div class="avatar-ring">
+          <div class="avatar-glow"></div>
+          <img src="assets/avatar.jpg" alt="Lư Thị Mỹ Tiên" class="avatar" onerror="this.src='https://i.pravatar.cc/300?img=47'">
+        </div>
+        <div class="badge badge-1">🎓 FTU 2022–2027</div>
+        <div class="badge badge-2">📐 Gia sư Toán</div>
+        <div class="badge badge-3">⭐ 9.5 Toán THPTQG</div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span>Cuộn xuống</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+ 
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <span class="section-tag">// về mình</span>
+        <h2>Giới Thiệu Bản Thân</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap" data-aos="fade-right" data-aos-duration="900">
+          <div class="about-img-frame">
+            <img src="assets/avatar.jpg" alt="Mỹ Tiên" onerror="this.src='https://i.pravatar.cc/400?img=47'">
+            <div class="img-decoration"></div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">9.5</span>
+              <span class="stat-label">Toán THPT</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">9.0</span>
+              <span class="stat-label">Toán vào 10</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Năm gia sư</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+          <h3>Mình là ai? 🌷</h3>
+          <p>
+            Mình là <strong>Lư Thị Mỹ Tiên</strong> — gia sư Toán người sẽ giúp bạn
+            "gỡ rối" những bài toán tưởng chừng khó nhằn. Mình luôn cố gắng biến
+            những kiến thức phức tạp thành đơn giản, dễ hiểu và dễ nhớ.
+          </p>
+          <p>
+            Không chỉ giúp bạn cải thiện điểm số, mình còn mong muốn giúp bạn
+            cảm thấy Toán học <em>"dễ thở"</em> hơn và không còn là nỗi sợ nữa! ✨
+          </p>
+          <div class="edu-block">
+            <div class="edu-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <strong>Đại học Ngoại thương (FTU)</strong>
+                <span>10/2022 – 2027 · Kinh tế &amp; Phát triển quốc tế</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Hà Nội, Việt Nam</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span>0387 606 502</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span>K62.2317420008@ftu.edu.vn</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-heart"></i>
+              <span>Toán học, Giảng dạy, Nghiên cứu</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Thuê mình làm gia sư
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <span class="section-tag">// kỹ năng</span>
+        <h2>Kỹ Năng Của Mình</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="skill-icons" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card">
+          <div class="skill-icon">📐</div>
+          <span>Toán học</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📝</div>
+          <span>Word</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📊</div>
+          <span>Excel</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <span>PowerPoint</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🗣️</div>
+          <span>Giao tiếp</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🧠</div>
+          <span>Giải quyết vấn đề</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">👩‍🏫</div>
+          <span>Giảng dạy</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🤝</div>
+          <span>Làm việc nhóm</span>
+        </div>
+      </div>
+      <div class="skills-progress" data-aos="fade-up" data-aos-delay="200">
+        <h3>Mức độ thành thạo</h3>
+        <div class="progress-list">
+          <div class="progress-item">
+            <div class="progress-label">
+              <span>🖥️ Tin học văn phòng (Word, Excel, PowerPoint)</span>
+              <span class="progress-percent">★★★★★</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="100"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label">
+              <span>🗣️ Kỹ năng giao tiếp</span>
+              <span class="progress-percent">★★★★★</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="100"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label">
+              <span>🧠 Giải quyết vấn đề &amp; xử lý tình huống</span>
+              <span class="progress-percent">★★★★★</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="100"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label">
+              <span>📐 Toán học &amp; Giảng dạy</span>
+              <span class="progress-percent">95%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="95"></div></div>
+          </div>
+          <div class="progress-item">
+            <div class="progress-label">
+              <span>🌏 Nghiên cứu &amp; Phát triển thị trường</span>
+              <span class="progress-percent">80%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="projects section" id="experience">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <span class="section-tag">// kinh nghiệm</span>
+        <h2>Kinh Nghiệm Của Mình</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="card-img">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #FFB5C8, #C9B8FF);">
+              <span>📐</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">2024 – 2025</span>
+              <span class="tag">Giảng dạy</span>
+            </div>
+            <h3>Gia sư Toán</h3>
+            <p>Giúp học sinh cải thiện điểm số Toán, đạt điểm <strong>9</strong> sau thời gian học tập. Biến những kiến thức khó thành dễ hiểu, dễ nhớ.</p>
+          </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-img">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #C9B8FF, #B8E4FF);">
+              <span>📈</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">9/2023 – 3/2024</span>
+              <span class="tag">Thực tập</span>
+            </div>
+            <h3>Thực tập sinh R&amp;D Thị trường</h3>
+            <p>Công ty TNHH <strong>OFOCUS</strong> — Nghiên cứu &amp; phát triển thị trường. Nâng cao kỹ năng giao tiếp và khả năng nắm bắt tâm lý khách hàng.</p>
+          </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-img">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #FFD6E7, #FFB5C8);">
+              <span>🏆</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">Thành tích</span>
+              <span class="tag">Học tập</span>
+            </div>
+            <h3>Thành Tích Học Tập</h3>
+            <p>
+              🎯 <strong>9.5 điểm</strong> Toán thi THPTQG<br>
+              🎯 <strong>9 điểm</strong> Toán thi vào 10<br>
+              🎓 Sinh viên <strong>FTU</strong> — Kinh tế &amp; Phát triển quốc tế
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <span class="section-tag">// liên hệ</span>
+        <h2>Kết Nối Với Mình</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="900">
+          <h3>Hãy cùng nói chuyện! 💬</h3>
+          <p>Bạn muốn học Toán hiệu quả hơn? Đừng ngại liên hệ với mình — mình luôn sẵn sàng giúp bạn chinh phục Toán học! 🌸</p>
+          <div class="contact-links">
+            <a href="mailto:K62.2317420008@ftu.edu.vn" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">K62.2317420008@ftu.edu.vn</span>
+              </div>
+            </a>
+            <a href="tel:0387606502" class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Điện thoại</span>
+                <span class="contact-value">0387 606 502</span>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/ngdepdangsuy2104" class="contact-item" target="_blank">
+              <div class="contact-icon contact-icon--fb"><i class="fab fa-facebook-f"></i></div>
+              <div>
+                <span class="contact-label">Facebook</span>
+                <span class="contact-value">Lư Thị Mỹ Tiên</span>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/mytien.04_/" class="contact-item" target="_blank">
+              <div class="contact-icon contact-icon--ig"><i class="fab fa-instagram"></i></div>
+              <div>
+                <span class="contact-label">Instagram</span>
+                <span class="contact-value">@mytien.04_</span>
+              </div>
+            </a>
+            <a href="https://zalo.me/0387606502" class="contact-item" target="_blank">
+              <div class="contact-icon contact-icon--zalo"><i class="fas fa-comment-dots"></i></div>
+              <div>
+                <span class="contact-label">Zalo</span>
+                <span class="contact-value">0387 606 502</span>
+              </div>
+            </a>
+          </div>
+          <div class="social-row">
+            <a href="https://www.facebook.com/ngdepdangsuy2104" target="_blank" class="social-btn social-fb" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/mytien.04_/" target="_blank" class="social-btn social-ig" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://zalo.me/0387606502" target="_blank" class="social-btn social-zalo" title="Zalo">
+              <i class="fas fa-comment-dots"></i>
+            </a>
+            <a href="mailto:K62.2317420008@ftu.edu.vn" class="social-btn social-email" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+          <div class="contact-form">
+            <div class="form-group">
+              <label>Tên của bạn</label>
+              <input type="text" id="contactName" placeholder="Nguyễn Văn A">
+            </div>
+            <div class="form-group">
+              <label>Email hoặc Số điện thoại</label>
+              <input type="text" id="contactEmail" placeholder="email@example.com hoặc 0387...">
+            </div>
+            <div class="form-group">
+              <label>Tin nhắn</label>
+              <textarea id="contactMessage" rows="5" placeholder="Xin chào Tiên! Mình muốn học Toán lớp..."></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" id="sendBtn" onclick="sendMessage()">
+              <i class="fas fa-paper-plane"></i> Gửi tin nhắn
+            </button>
+            <div id="formFeedback" class="form-feedback"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/ngdepdangsuy2104" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/mytien.04_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://zalo.me/0387606502" target="_blank" title="Zalo"><i class="fas fa-comment-dots"></i></a>
+        <a href="mailto:K62.2317420008@ftu.edu.vn" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>Made with <span class="heart">💗</span> by <strong>Lư Thị Mỹ Tiên</strong></p>
+      <p class="footer-sub">© 2026 · Đại học Ngoại thương · Kinh tế &amp; Phát triển quốc tế</p>
+    </div>
+  </footer>
+ 
+  <button class="back-top" id="backTop" onclick="scrollToTop()">↑</button>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
