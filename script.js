@@ -46,11 +46,11 @@ function scrollToTop() {
 // ---- Typewriter Effect ----
 // Thay đổi mảng này để hiển thị nghề nghiệp / sở thích của bạn
 const phrases = [
-  'Sinh viên Năm 3 🎓',
-  'Frontend Developer 💻',
-  'UI/UX Enthusiast 🎨',
-  'Người yêu lo-fi music 🎵',
-  'Luôn học điều mới ✨',
+  'Gia sư Toán 📐',
+  'Sinh viên FTU 🎓',
+  '9.5 Toán THPTQG ⭐',
+  'Luôn giúp bạn hiểu Toán 💡',
+  'Kinh tế & Phát triển quốc tế 🌏',
 ];
  
 let phraseIdx = 0;
