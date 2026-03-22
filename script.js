@@ -50,7 +50,6 @@ const phrases = [
   'Sinh viên FTU 🎓',
   '9.5 Toán THPTQG ⭐',
   'Luôn giúp bạn hiểu Toán 💡',
-  'Kinh tế & Phát triển quốc tế 🌏',
 ];
  
 let phraseIdx = 0;
